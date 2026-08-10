@@ -1,0 +1,23 @@
+{
+  "name": "threadline-phase0-callback-spike",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Phase 0 feasibility spike: API-triggered Workspace Agent -> private submit_reply MCP -> gateway outbox -> gateway-owned Spectrum send. Offline core is dependency-free and testable; live modules are gated on credentials.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "test": "node --test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "spectrum-ts": "12.7.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "26.2.0",
+    "typescript": "5.9.3"
+  }
+}

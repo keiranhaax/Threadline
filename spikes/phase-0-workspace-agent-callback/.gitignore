@@ -1,0 +1,8 @@
+# Secrets and local state — never commit.
+.env
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+node_modules/
+dist/
+*.log

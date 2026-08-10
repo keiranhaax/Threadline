@@ -62,6 +62,7 @@ Plain messages go to `/work` unless the user has explicitly selected another tar
 The first usable release will support one owner, one Photon line, text messages, persistent hosted-agent conversations, `/new`, `/work`, `/status`, and exactly-once replies through Photon MCP. VPS and local-PC execution are added after the hosted path is reliable.
 
 See [docs/PLAN.md](docs/PLAN.md) for the implementation plan, boundaries, and acceptance criteria.
+See [docs/PHASE-0.md](docs/PHASE-0.md) for the Phase 0 feasibility record (architectural-spine verification, assumptions table, and go/no-go status).
 
 ## License
 
